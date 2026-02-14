@@ -15,7 +15,7 @@ export function Footer() {
           viewport={{ once: true }}
         >
           <p className="text-muted-foreground text-sm">
-            © {currentYear} John Doe. All rights reserved.
+            © {currentYear} Sagar Koju. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm flex items-center gap-1">
             Built with <Heart className="w-4 h-4 text-primary fill-primary" /> using React & Tailwind

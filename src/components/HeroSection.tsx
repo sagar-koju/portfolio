@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/photo.png";
 
 export function HeroSection() {
   return (
@@ -50,7 +50,7 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
             >
-              John Doe
+              Sagar Koju
             </motion.h1>
             
             <motion.h2
@@ -133,7 +133,7 @@ export function HeroSection() {
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-primary/20 shadow-glow">
                 <img
                   src={profilePhoto}
-                  alt="John Doe - Full Stack Developer"
+                  alt="Sagar Koju - Full Stack Developer"
                   className="w-full h-full object-cover"
                 />
               </div>
